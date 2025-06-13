@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Limbo.unity
     guid: 46f698add465b9d4183f27d79cf4654a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Inferno.unity
     guid: cc56dd5220cc4d144ae6ff372ff73a40
   m_configObjects: {}
