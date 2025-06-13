@@ -21,4 +21,9 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("UpperWorld"); // Nombre exacto de la escena
     }
+
+    public void CambiarAMenu()
+    {
+        SceneManager.LoadScene("Menu"); // Nombre exacto de la escena
+    }
 }
