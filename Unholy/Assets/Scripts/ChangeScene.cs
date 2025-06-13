@@ -19,6 +19,6 @@ public class ChangeScene : MonoBehaviour
 
     public void CambiarAInferno()
     {
-        SceneManager.LoadScene("Inferno"); // Nombre exacto de la escena
+        SceneManager.LoadScene("UpperWorld"); // Nombre exacto de la escena
     }
 }

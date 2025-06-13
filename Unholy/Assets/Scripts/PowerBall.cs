@@ -35,6 +35,9 @@ public class PowerBall : MonoBehaviour
             // Desactivamos el movimiento para que no siga avanzando
             rb.velocity = Vector2.zero;
 
+            // Destruir al jugador
+            Destroy(other.gameObject);
+
             // Esperamos a que termine la animación antes de destruirlo
             StartCoroutine(EsperarYDestruir());
         }

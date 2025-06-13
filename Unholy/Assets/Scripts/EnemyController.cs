@@ -17,36 +17,48 @@ public class EnemyController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        // Buscar al jugador en la escena de manera dinámica
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        rb.gravityScale = 2f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-        if (distanceToPlayer < detectionRadius)
+        if (player != null) // Verificar si el jugador sigue existiendo
         {
-            Vector2 direction = (player.position - transform.position).normalized;
-            if (direction.x < 0)
-            {
-                transform.localScale = new Vector3(-1, 1, 1);
-            }
-            if (direction.x > 0)
-            {
-                transform.localScale = new Vector3(1, 1, 1);
-            }
-            movement = new Vector2(direction.x, 0);
+            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-            enMovimiento = true;
+            if (distanceToPlayer < detectionRadius)
+            {
+                Vector2 direction = (player.position - transform.position).normalized;
+                if (direction.x < 0)
+                {
+                    transform.localScale = new Vector3(-1, 1, 1);
+                }
+                if (direction.x > 0)
+                {
+                    transform.localScale = new Vector3(1, 1, 1);
+                }
+                movement = new Vector2(direction.x, 0);
+
+                enMovimiento = true;
+            }
+            else
+            {
+                movement = Vector2.zero;
+                enMovimiento = false;
+            }
+
+            rb.MovePosition(rb.position + movement * speed * Time.deltaTime);
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y - (9.8f * Time.deltaTime)); // Ajusta 9.8 según la gravedad de Unity
+            animator.SetBool("enMovimiento", enMovimiento);
         }
         else
         {
-            movement = Vector2.zero;
-            enMovimiento = false;
+            Debug.LogWarning("El jugador ha sido destruido, el enemigo deja de seguirlo."); // Mensaje de depuración
         }
-
-        //rb.MovePosition(rb.position + movement * speed * Time.deltaTime);
-        rb.velocity = new Vector2(movement.x * speed, rb.velocity.y);
-        animator.SetBool("enMovimiento", enMovimiento);
     }
 
     void OnDrawGizmos()

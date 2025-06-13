@@ -1,0 +1,589 @@
+fileFormatVersion: 2
+guid: 38944fa0283e3014bae9bca5c1b7f396
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5466750899975954039
+    second: UpperWorldTileset_0
+  - first:
+      213: -3337811557292121685
+    second: UpperWorldTileset_1
+  - first:
+      213: 4319778483982452749
+    second: UpperWorldTileset_2
+  - first:
+      213: -2204930075586966315
+    second: UpperWorldTileset_3
+  - first:
+      213: -1970041806588158762
+    second: UpperWorldTileset_4
+  - first:
+      213: 5671911151895940114
+    second: UpperWorldTileset_5
+  - first:
+      213: 1183983441682015672
+    second: UpperWorldTileset_6
+  - first:
+      213: 7435148005343403092
+    second: UpperWorldTileset_7
+  - first:
+      213: -8829262000454705739
+    second: UpperWorldTileset_8
+  - first:
+      213: -9191216302845370382
+    second: UpperWorldTileset_9
+  - first:
+      213: 1584864971687897468
+    second: UpperWorldTileset_10
+  - first:
+      213: 4638699040047404744
+    second: UpperWorldTileset_11
+  - first:
+      213: -1208600640281095543
+    second: UpperWorldTileset_12
+  - first:
+      213: 1925251184281174553
+    second: UpperWorldTileset_13
+  - first:
+      213: -561043640522691443
+    second: UpperWorldTileset_14
+  - first:
+      213: -7204337284363178250
+    second: UpperWorldTileset_15
+  - first:
+      213: -3551522444005058547
+    second: UpperWorldTileset_16
+  - first:
+      213: -6314214071576778141
+    second: UpperWorldTileset_17
+  - first:
+      213: 598088992466168697
+    second: UpperWorldTileset_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UpperWorldTileset_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e1d9cbafccddb40800000000000000
+      internalID: 5466750899975954039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1e868b216bda1d0800000000000000
+      internalID: -3337811557292121685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08462ed4afe2fb30800000000000000
+      internalID: 4319778483982452749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc401a47c38661e0800000000000000
+      internalID: -2204930075586966315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcd4a52a6109a4e0800000000000000
+      internalID: -1970041806588158762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c855e342da6be40800000000000000
+      internalID: 5671911151895940114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5a66dcaaa5e6010800000000000000
+      internalID: 1183983441682015672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c92feb7b3fe2760800000000000000
+      internalID: 7435148005343403092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdda027df8287580800000000000000
+      internalID: -8829262000454705739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff5f1f387d327080800000000000000
+      internalID: -9191216302845370382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 80
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79aa667b429ef510800000000000000
+      internalID: 1584864971687897468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c698f53338ff5040800000000000000
+      internalID: 4638699040047404744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9825cb00f103a3fe0800000000000000
+      internalID: -1208600640281095543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912ca7e60cdd7ba10800000000000000
+      internalID: 1925251184281174553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c272f08c5c638f0800000000000000
+      internalID: -561043640522691443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe2e6bf86d050c90800000000000000
+      internalID: -7204337284363178250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d085049672576bec0800000000000000
+      internalID: -3551522444005058547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36aa4eb81c76f58a0800000000000000
+      internalID: -6314214071576778141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperWorldTileset_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b640415c6dc4800800000000000000
+      internalID: 598088992466168697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2b85674f75ffd2e46bfbeb2ac0cc597f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UpperWorldTileset_0: 5466750899975954039
+      UpperWorldTileset_1: -3337811557292121685
+      UpperWorldTileset_10: 1584864971687897468
+      UpperWorldTileset_11: 4638699040047404744
+      UpperWorldTileset_12: -1208600640281095543
+      UpperWorldTileset_13: 1925251184281174553
+      UpperWorldTileset_14: -561043640522691443
+      UpperWorldTileset_15: -7204337284363178250
+      UpperWorldTileset_16: -3551522444005058547
+      UpperWorldTileset_17: -6314214071576778141
+      UpperWorldTileset_18: 598088992466168697
+      UpperWorldTileset_2: 4319778483982452749
+      UpperWorldTileset_3: -2204930075586966315
+      UpperWorldTileset_4: -1970041806588158762
+      UpperWorldTileset_5: 5671911151895940114
+      UpperWorldTileset_6: 1183983441682015672
+      UpperWorldTileset_7: 7435148005343403092
+      UpperWorldTileset_8: -8829262000454705739
+      UpperWorldTileset_9: -9191216302845370382
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
